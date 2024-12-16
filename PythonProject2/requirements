@@ -2,8 +2,8 @@ streamlit>=1.20.0               # For building the Streamlit app
 pillow>=9.0.0                   # Ensures image rendering
 faiss-cpu>=1.7.4                # For querying embeddings
 sentence-transformers>=2.2.2    # For generating embeddings
-openai>=0.27.0                  # Azure OpenAI API integration
-azure-ai-textanalytics>=5.2.0   # Azure AI functionality
+openai>=0.27.0                  # OpenAI and Azure OpenAI API integration
+azure-ai-textanalytics>=5.2.0   # Azure AI text analytics functionality
 pandas>=1.3.0                   # Data handling and manipulation
 requests>=2.25.0                # HTTP requests for web scraping
 beautifulsoup4>=4.9.0           # Parsing and extracting HTML data
@@ -12,6 +12,4 @@ scikit-learn>=1.0.0             # Machine learning tools (CountVectorizer, Multi
 PyPDF2>=3.0.0                   # Extract text from PDF files
 wordcloud>=1.8.2                # Generate word clouds
 matplotlib>=3.4.0               # For visualizing word clouds and charts
-faiss-cpu                # Facebook AI Similarity Search (FAISS)
 pickle-mixin>=1.0.2             # For serializing FAISS metadata
-azure-openai>=1.0.0             # Azure OpenAI integration
