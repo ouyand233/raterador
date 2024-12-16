@@ -12,6 +12,6 @@ scikit-learn>=1.0.0             # Machine learning tools (CountVectorizer, Multi
 PyPDF2>=3.0.0                   # Extract text from PDF files
 wordcloud>=1.8.2                # Generate word clouds
 matplotlib>=3.4.0               # For visualizing word clouds and charts
-faiss>=1.7.4                    # Facebook AI Similarity Search (FAISS)
+faiss-cpu                # Facebook AI Similarity Search (FAISS)
 pickle-mixin>=1.0.2             # For serializing FAISS metadata
 azure-openai>=1.0.0             # Azure OpenAI integration
